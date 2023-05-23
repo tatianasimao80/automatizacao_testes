@@ -1,0 +1,77 @@
+{"level":30,"time":"2023-02-17T00:29:29.149Z","pid":8488,"hostname":"Thaty","msg":"Listening on 64556"}
+{"level":30,"time":"2023-02-17T00:29:29.469Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:29.469Z","pid":8488,"hostname":"Thaty","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:29.474Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:29.474Z","pid":8488,"hostname":"Thaty","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Cliente\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:7958:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Cliente\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:8469:59)
+    at PlaywrightServer.setTimeout (C:\Users\Cliente\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js:8711:69)
+    at C:\Users\Cliente\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:743:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Users\Cliente\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:389:13)
+    at ServerHttp2Stream.onEnd (C:\Users\Cliente\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:376:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-02-17T00:29:29.501Z","pid":8488,"hostname":"Thaty","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-02-17T00:29:33.266Z","pid":8488,"hostname":"Thaty","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-02-17T00:29:33.276Z","pid":8488,"hostname":"Thaty","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-02-17T00:29:33.277Z","pid":8488,"hostname":"Thaty","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-02-17T00:29:33.277Z","pid":8488,"hostname":"Thaty","msg":"Trace file: "}
+{"level":30,"time":"2023-02-17T00:29:33.344Z","pid":8488,"hostname":"Thaty","msg":"Changed active context"}
+{"level":30,"time":"2023-02-17T00:29:33.345Z","pid":8488,"hostname":"Thaty","msg":"End of node method newContext"}
+{"level":30,"time":"2023-02-17T00:29:33.350Z","pid":8488,"hostname":"Thaty","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-02-17T00:29:33.350Z","pid":8488,"hostname":"Thaty","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-02-17T00:29:34.600Z","pid":8488,"hostname":"Thaty","msg":"Video path: undefined"}
+{"level":30,"time":"2023-02-17T00:29:34.600Z","pid":8488,"hostname":"Thaty","msg":"Changed active page"}
+{"level":30,"time":"2023-02-17T00:29:39.164Z","pid":8488,"hostname":"Thaty","msg":"End of node method newPage"}
+{"level":30,"time":"2023-02-17T00:29:39.253Z","pid":8488,"hostname":"Thaty","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-02-17T00:29:39.253Z","pid":8488,"hostname":"Thaty","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2023-02-17T00:29:39.449Z","pid":8488,"hostname":"Thaty","msg":"End of node method fillText"}
+{"level":30,"time":"2023-02-17T00:29:39.458Z","pid":8488,"hostname":"Thaty","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-02-17T00:29:39.458Z","pid":8488,"hostname":"Thaty","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2023-02-17T00:29:39.509Z","pid":8488,"hostname":"Thaty","msg":"End of node method fillText"}
+{"level":30,"time":"2023-02-17T00:29:39.515Z","pid":8488,"hostname":"Thaty","msg":"Start of node method click"}
+{"level":30,"time":"2023-02-17T00:29:39.515Z","pid":8488,"hostname":"Thaty","msg":"Strict mode is enabled, find Locator with xpath=//button in page."}
+{"level":30,"time":"2023-02-17T00:29:39.622Z","pid":8488,"hostname":"Thaty","msg":"End of node method click"}
+{"level":30,"time":"2023-02-17T00:29:39.635Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getElement"}
+{"level":30,"time":"2023-02-17T00:29:39.636Z","pid":8488,"hostname":"Thaty","msg":"Strict mode is enabled, find Locator with xpath=//title[text()='Página Inicial - Didatikos'] in page."}
+{"level":30,"time":"2023-02-17T00:29:43.294Z","pid":8488,"hostname":"Thaty","msg":"End of node method getElement"}
+{"level":30,"time":"2023-02-17T00:29:43.323Z","pid":8488,"hostname":"Thaty","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-02-17T00:29:43.843Z","pid":8488,"hostname":"Thaty","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-02-17T00:29:43.877Z","pid":8488,"hostname":"Thaty","msg":"Start of node method click"}
+{"level":30,"time":"2023-02-17T00:29:43.878Z","pid":8488,"hostname":"Thaty","msg":"Strict mode is enabled, find Locator with xpath=//*[@class='f-16 text-bold px-15px'][text()='Avaliações / Simulados'] in page."}
+{"level":30,"time":"2023-02-17T00:29:44.677Z","pid":8488,"hostname":"Thaty","msg":"End of node method click"}
+{"level":30,"time":"2023-02-17T00:29:44.691Z","pid":8488,"hostname":"Thaty","msg":"Start of node method click"}
+{"level":30,"time":"2023-02-17T00:29:44.691Z","pid":8488,"hostname":"Thaty","msg":"Strict mode is enabled, find Locator with xpath=(//*[@id=\"app\"]//p)[2] in page."}
+{"level":30,"time":"2023-02-17T00:29:47.086Z","pid":8488,"hostname":"Thaty","msg":"End of node method click"}
+{"level":30,"time":"2023-02-17T00:29:47.106Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getElement"}
+{"level":30,"time":"2023-02-17T00:29:47.106Z","pid":8488,"hostname":"Thaty","msg":"Strict mode is enabled, find Locator with xpath=(//*[contains(text(),'Criar Avaliação Online')]) [1] in page."}
+{"level":30,"time":"2023-02-17T00:29:47.919Z","pid":8488,"hostname":"Thaty","msg":"End of node method getElement"}
+{"level":30,"time":"2023-02-17T00:29:47.976Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.022Z","pid":8488,"hostname":"Thaty","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.033Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.121Z","pid":8488,"hostname":"Thaty","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.136Z","pid":8488,"hostname":"Thaty","msg":"Changed active context"}
+{"level":30,"time":"2023-02-17T00:29:48.136Z","pid":8488,"hostname":"Thaty","msg":"Changing current active page"}
+{"level":30,"time":"2023-02-17T00:29:48.137Z","pid":8488,"hostname":"Thaty","msg":"Changed active page"}
+{"level":30,"time":"2023-02-17T00:29:48.163Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.311Z","pid":8488,"hostname":"Thaty","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.315Z","pid":8488,"hostname":"Thaty","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:29:48.316Z","pid":8488,"hostname":"Thaty","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:29:48.318Z","pid":8488,"hostname":"Thaty","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:29:48.319Z","pid":8488,"hostname":"Thaty","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-02-17T00:29:48.331Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.418Z","pid":8488,"hostname":"Thaty","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.421Z","pid":8488,"hostname":"Thaty","msg":"Changed active context"}
+{"level":30,"time":"2023-02-17T00:29:48.421Z","pid":8488,"hostname":"Thaty","msg":"Changing current active page"}
+{"level":30,"time":"2023-02-17T00:29:48.421Z","pid":8488,"hostname":"Thaty","msg":"Changed active page"}
+{"level":30,"time":"2023-02-17T00:29:48.434Z","pid":8488,"hostname":"Thaty","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-02-17T00:29:48.477Z","pid":8488,"hostname":"Thaty","msg":"Removed page=8220f856-2a70-499c-bebe-7170ef7322aa from context=cbe591b0-b579-44e1-b1b3-48352ecfe0f3 page stack"}
+{"level":30,"time":"2023-02-17T00:29:48.571Z","pid":8488,"hostname":"Thaty","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-02-17T00:29:48.638Z","pid":8488,"hostname":"Thaty","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:48.638Z","pid":8488,"hostname":"Thaty","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-17T00:29:50.151Z","pid":8488,"hostname":"Thaty","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-02-17T00:29:50.828Z","pid":8488,"hostname":"Thaty","msg":"End of node method closeAllBrowsers"}
